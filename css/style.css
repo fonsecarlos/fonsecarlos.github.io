@@ -17,20 +17,20 @@
 			background-size: cover;
 		}
 		/* Define backgrounds dos divs */
-		#projetos {background-image: url(../imgs/bck2.jpg);
+		#projetos {background-image: url(imgs/bck2.jpg);
 			-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);}
-		#curriculo {background-image: url(../imgs/bck3.jpg);
+		#curriculo {background-image: url(imgs/bck3.jpg);
 			-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);}
 		#inicio {
-			background-image: url(../imgs/bck1.jpg);
+			background-image: url(imgs/bck1.jpg);
 			-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
