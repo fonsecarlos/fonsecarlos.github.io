@@ -1,5 +1,3 @@
-
-
 var directionsDisplay;
 var directionsService = new google.maps.DirectionsService();
 var map;
@@ -19,7 +17,7 @@ function renderMap() {
 function calcRoute(latitude, longitude) {
   var today = new Date();
   var request;
-	
+
   request = {
       origin: (latitude + ',' + longitude),
       destination: '-19.843063,-43.9384724',
@@ -44,6 +42,7 @@ function renderGeolocationMap() {
     };
     map = new google.maps.Map(document.getElementById('contato'), mapOptions);
 	
+    map.disableScrollWheelZoom();
     directionsDisplay.setMap(map);
 	
     map.disableScrollWheelZoom();
