@@ -75,7 +75,7 @@ color:#000;
 padding:0 0 0 0;
 color:#000;
 		  position: absolute;
-			left:10%;
+			right:10%;
 			top:15%;
 		}	
 #quote p{
@@ -221,3 +221,9 @@ a{
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
+.mfp-no-margins .mfp-container {
+	position:fixed;top: 50%;left: 0%;
+	padding: 0;
+}
+
+

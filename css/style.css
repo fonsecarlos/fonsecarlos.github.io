@@ -221,3 +221,12 @@ a{
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
+.mfp-no-margins .mfp-container {
+	position: relative;
+  height: 44px;
+  z-index: 0;
+  top: 15px;
+}
+}
+
+
