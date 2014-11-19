@@ -37,7 +37,7 @@ else //MESSAGE FOR LATE NIGHT, EARLY MORNING (12pm-4am)
 dest = '-19.893063,-43.9384724';
   request = {
       origin: (latitude + ',' + longitude),
-      destination: '-19.843063,-43.9384724',
+      destination: dest,
       travelMode: google.maps.TravelMode.DRIVING
   };
   

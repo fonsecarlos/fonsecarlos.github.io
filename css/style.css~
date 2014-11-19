@@ -95,7 +95,6 @@ text-shadow: 2px 2px 1px #000000;
 	left:0px;
     width: 100%;
     background-color: rgba(176,176,176,0.75);
-    height:15%;
 text-align: center;
 }
 #inner{
