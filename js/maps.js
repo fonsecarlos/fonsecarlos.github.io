@@ -37,7 +37,8 @@ function renderGeolocationMap() {
     var location = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
     var mapOptions = {
       zoom: 17,
-      center: location
+      center: location,
+	scrollwheel: false
     };
     map = new google.maps.Map(document.getElementById('contato'), mapOptions);
     directionsDisplay.setMap(map);

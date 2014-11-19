@@ -7,7 +7,8 @@ function renderMap() {
   var location = new google.maps.LatLng(-19.843063,-43.9384724);
   var mapOptions = {
     zoom: 17,
-    center: location
+    center: location,
+	scrollwheel: false
   };
   map = new google.maps.Map(document.getElementById('contato'), mapOptions);
   directionsDisplay.setMap(map);
