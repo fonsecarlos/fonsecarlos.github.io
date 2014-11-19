@@ -25,17 +25,17 @@ function calcRoute(latitude, longitude) {
   var request;
 	var dest;
   if (hours>=5&&hours<=11) //MESSAGE FOR MORNING
-	dest = '-19.843063,-43.9384724';
+	dest = '-17.843063,-43.9384724';
 	else if (hours==12) //MESSAGE FOR NOON
-	dest = '-19.843063,-43.9384724';
+	dest = '-18.843063,-43.9384724';
 	else if (hours>=13&&hours<=17) //MESSAGE FOR AFTERNOON
 	dest = '-19.843063,-43.9384724';
 	else if (hours>=18&&hours<=20) //MESSAGE FOR EVENING (6pm-8pm)
-	dest = '-18.843063,-43.9384724';
+	dest = '-20.843063,-43.9384724';
 	else if (hours>=21&&hours<=11) //MESSAGE FOR NIGHT (9pm-11pm)
-	dest = '-18.843063,-43.9384724';
+	dest = '-21.843063,-43.9384724';
 	else //MESSAGE FOR LATE NIGHT, EARLY MORNING (12pm-4am)
-	dest = '-19.843063,-43.9384724';
+	dest = '-22.843063,-43.9384724';
 
 	
   request = {
