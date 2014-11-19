@@ -36,13 +36,16 @@ function renderGeolocationMap() {
     directionsDisplay = new google.maps.DirectionsRenderer();
     var location = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
     var mapOptions = {
-      zoom: 17,
+      zoom: 100,
       center: location,
 	scrollwheel: false
     };
     map = new google.maps.Map(document.getElementById('contato'), mapOptions);
+	
+    map.disableScrollWheelZoom();
     directionsDisplay.setMap(map);
-
+	
+    map.disableScrollWheelZoom();
     calcRoute(position.coords.latitude, position.coords.longitude);
   });
 }
