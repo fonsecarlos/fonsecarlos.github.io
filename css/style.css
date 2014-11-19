@@ -49,7 +49,7 @@ position:relative;
 		  padding:20% 0 0;
 		}
 
-		#inicio article {
+		#quote {
 		  width: 40%;
 		  text-align: right;
 		  margin:0 auto;
@@ -80,10 +80,6 @@ color:#000;
 		}	
 #quote p{
 text-shadow: 2px 2px 1px #000000;
-}
-#contato2{
-positio:absolute;
-bottom:50px;
 }
 		/** formata texto **/
 		article h1 {font-size:40px;}

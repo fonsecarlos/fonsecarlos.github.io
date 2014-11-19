@@ -82,7 +82,7 @@ color:#000;
 text-shadow: 2px 2px 1px #000000;
 }
 #contato2{
-positio:relative;
+positio:absolute;
 bottom:50px;
 }
 		/** formata texto **/
