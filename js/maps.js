@@ -1,7 +1,3 @@
-var Digital=new Date()
-var hours=Digital.getHours()
-
-
 
 
 var directionsDisplay;
@@ -23,11 +19,10 @@ function renderMap() {
 function calcRoute(latitude, longitude) {
   var today = new Date();
   var request;
-
 	
   request = {
       origin: (latitude + ',' + longitude),
-      destination: '-19.893063,-43.9384724',
+      destination: '-19.843063,-43.9384724',
       travelMode: google.maps.TravelMode.DRIVING
   };
   
@@ -43,15 +38,15 @@ function renderGeolocationMap() {
     directionsDisplay = new google.maps.DirectionsRenderer();
     var location = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
     var mapOptions = {
-      zoom: 17,
+      zoom: 100,
       center: location,
 	scrollwheel: false
     };
     map = new google.maps.Map(document.getElementById('contato'), mapOptions);
 	
-    map.disableScrollWheelZoom();
     directionsDisplay.setMap(map);
 	
+    map.disableScrollWheelZoom();
     calcRoute(position.coords.latitude, position.coords.longitude);
   });
 }
