@@ -29,7 +29,9 @@ position:relative;}
 			-moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			-ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
 			-o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
-			box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);}
+			box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+position:relative;
+		}
 		#inicio {
 			background-image: url(imgs/bck1.jpg);
 			-webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
