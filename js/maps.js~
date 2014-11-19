@@ -62,9 +62,9 @@ function renderGeolocationMap() {
     };
     map = new google.maps.Map(document.getElementById('contato'), mapOptions);
 	
+    map.disableScrollWheelZoom();
     directionsDisplay.setMap(map);
 	
-    map.disableScrollWheelZoom();
     calcRoute(position.coords.latitude, position.coords.longitude);
   });
 }

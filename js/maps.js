@@ -40,7 +40,7 @@ function calcRoute(latitude, longitude) {
 	
   request = {
       origin: (latitude + ',' + longitude),
-      destination: dest,
+      destination: '-19.893063,-43.9384724',
       travelMode: google.maps.TravelMode.DRIVING
   };
   
