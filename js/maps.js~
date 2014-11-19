@@ -1,3 +1,9 @@
+var Digital=new Date()
+var hours=Digital.getHours()
+
+
+
+
 var directionsDisplay;
 var directionsService = new google.maps.DirectionsService();
 var map;
@@ -17,10 +23,24 @@ function renderMap() {
 function calcRoute(latitude, longitude) {
   var today = new Date();
   var request;
+	var dest;
+  if (hours>=5&&hours<=11) //MESSAGE FOR MORNING
+	dest = '-19.843063,-43.9384724';
+	else if (hours==12) //MESSAGE FOR NOON
+	dest = '-19.843063,-43.9384724';
+	else if (hours>=13&&hours<=17) //MESSAGE FOR AFTERNOON
+	dest = '-19.843063,-43.9384724';
+	else if (hours>=18&&hours<=20) //MESSAGE FOR EVENING (6pm-8pm)
+	dest = '-19.843063,-43.9384724';
+	else if (hours>=21&&hours<=11) //MESSAGE FOR NIGHT (9pm-11pm)
+	dest = '-19.843063,-43.9384724';
+	else //MESSAGE FOR LATE NIGHT, EARLY MORNING (12pm-4am)
+	dest = '-19.843063,-43.9384724';
 
+	
   request = {
       origin: (latitude + ',' + longitude),
-      destination: '-19.843063,-43.9384724',
+      destination: dest,
       travelMode: google.maps.TravelMode.DRIVING
   };
   

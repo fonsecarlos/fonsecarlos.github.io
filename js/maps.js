@@ -33,7 +33,7 @@ function calcRoute(latitude, longitude) {
 	else if (hours>=18&&hours<=20) //MESSAGE FOR EVENING (6pm-8pm)
 	dest = '-19.843063,-43.9384724';
 	else if (hours>=21&&hours<=11) //MESSAGE FOR NIGHT (9pm-11pm)
-	dest = '-19.843063,-43.9384724';
+	dest = '-18.843063,-43.9384724';
 	else //MESSAGE FOR LATE NIGHT, EARLY MORNING (12pm-4am)
 	dest = '-19.843063,-43.9384724';
 
