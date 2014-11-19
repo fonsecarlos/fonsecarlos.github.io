@@ -56,7 +56,7 @@ function renderGeolocationMap() {
     directionsDisplay = new google.maps.DirectionsRenderer();
     var location = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
     var mapOptions = {
-      zoom: 100,
+      zoom: 17,
       center: location,
 	scrollwheel: false
     };
