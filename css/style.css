@@ -70,12 +70,12 @@ color:#000;
 		}
 	#curriculo article {
 		  width: 40%;
-		  text-align: left;
+		  text-align: right;
 		  margin:0 auto;
 padding:0 0 0 0;
 color:#000;
 		  position: absolute;
-			left:10%;
+			right:10%;
 			top:15%;
 		}	
 #quote p{

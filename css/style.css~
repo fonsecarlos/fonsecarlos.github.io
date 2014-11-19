@@ -68,8 +68,15 @@ color:#000;
 			left:10%;
 			top:15%;
 		}
-	#projetos p{
-		
+	#curriculo article {
+		  width: 40%;
+		  text-align: right;
+		  margin:0 auto;
+padding:0 0 0 0;
+color:#000;
+		  position: absolute;
+			left:10%;
+			top:15%;
 		}	
 #quote p{
 text-shadow: 2px 2px 1px #000000;
