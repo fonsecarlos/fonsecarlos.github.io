@@ -111,11 +111,15 @@ position:relative;
 }
 #logo{
     display: inline-block;
+	margin-bottom:10px;
 }
 #menu li {
     display: inline-block;
-    margin-right:10%;
-    margin-left:2%;
+    padding-right:10%;
+}
+
+#menu li:last-of-type{
+padding-right:0;
 }
 
 
@@ -220,10 +224,6 @@ a{
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-}
-.mfp-no-margins .mfp-container {
-	position:fixed;top: 50%;left: 0%;
-	padding: 0;
 }
 
 

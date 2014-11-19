@@ -24,13 +24,13 @@ function calcRoute(latitude, longitude) {
 
 //Configure message below to your own.
 if (hours>=7&&hours<=13) //CEFET
-dest = '-19.843063,-43.9384724';
+dest = '-19.939055632515696, -43.99906444964404';
 else if (hours>13&&hours<=18) //TRABALHO
-dest = '-19.863063,-43.9384724';
+dest = '-19.92252429630971, -43.92267245469088';
 else if (hours>18&&hours<=20) //SHOPPING
-dest = '-19.873063,-43.9384724';
+dest = '-19.940845835099427, -43.93407351938481';
 else //MESSAGE FOR LATE NIGHT, EARLY MORNING (12pm-4am)
-dest = '-19.893063,-43.9384724';
+dest = '-19.937868036225538, -43.98821692583556';
   request = {
       origin: (latitude + ',' + longitude),
       destination: dest,
